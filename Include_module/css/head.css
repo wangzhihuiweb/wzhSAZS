@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+.Head{
+	height: 28px;
+	width: 100%;
+	min-width: 1200px;
+	border-bottom: 1px solid #2f373b;
+	background:#151e24;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1200?"1200px":"");
+}
+.Head1{
+	width: 1200px;
+	height: 28px;
+	margin: 0 auto;
+}
+.Head1 .Left,.Center,.Right{
+	color:#c1c1c1;
+	font-size: 12px;
+	height: 28px;
+	font-family: "宋体";
+	float: left;
+}
+.Head1 .Left a{
+	color:#c1c1c1;
+	font-family: "宋体";
+	margin-left: 25px;
+	text-decoration: none;
+}
+.Head1 .Left a.Color1{
+	color:#ee5137;
+}
+.Head1 .Left a.a1 img{
+	position: relative;
+	top: 4px;
+	margin: 0 5px;
+}
+.Head1 .Left a span{
+	margin: 0 3px;
+	color:#ee5137;
+}
+
+.Head1 .Center{
+	margin-left: 170px;
+	line-height: 28px;
+}
+.Head1 .Center a{
+	margin: 0 6px;
+	color:#e84418;
+	text-decoration: none;
+}
+.Head1 .Right{
+	float: right;
+}
+.Head1 .Right a{
+	width: 76px;
+	height: 28px;
+	color:#c1c1c1;
+	display: block;
+	float: left;
+	text-decoration: none;
+	text-align: center;
+	line-height: 28px;
+}
+.Head1 .Right a.dot{
+	background: url(../images/sj1.png) no-repeat right 3px center;
+}

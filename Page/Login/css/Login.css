@@ -1,0 +1,344 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(../../../PublicIMG/dotbg.jpg);
+}
+.Login{
+	width: 100%;
+	min-width: 1200px;
+	
+	height:914px;
+	position: relative;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1200?"1200px":"");
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)<914?"914px":"");
+	background: url(../../../PublicIMG/Index_bg.jpg) repeat top center;
+}
+
+.Login_box{
+	width: 733px;
+	overflow: hidden;
+	height: 554px;
+	padding-top: 48px;
+	padding-left: 75px;
+	padding-right: 70px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -439px;
+	margin-top: -301px;
+	background: url(../images/login_bg.png) no-repeat;
+	_background: #3aab3e;
+}
+
+.Login_box .Tit{
+	height: 30px;
+	width: 100%;
+}
+.Login_box .Tit h3{
+	font-weight: bold;
+	font-size: 22px;
+	color: #FFF;
+	float: left;
+	line-height: 30px;
+	font-family:"微软雅黑";
+}
+.Login_box .Tit p{
+	font-size: 14px;
+	color:#f6f6f6;
+	font-family:"宋体";
+	float: right;
+}
+.Login_box .Tit p a{
+	color:#f9bf65;
+	line-height: 30px;
+	text-decoration: none;
+}
+.Login_box .Tit p a:hover{
+	color: #900;
+}
+
+.Login_box .En{
+	overflow: hidden;
+	width: 733px;
+}
+
+.Login_box .En .L{
+	width: 426px;
+	padding-top: 57px;
+	float: left;
+}
+
+.Login_box .En .L .Inp{
+	height: 27px;
+	margin-top: 8px;
+}
+.Login_box .En .L .Mt{
+	margin-top: 26px;
+}
+.Login_box .En .L .H28{
+	height: 28px;
+	width: 256px;
+	line-height: 28px;
+
+}
+.Login_box .En .L .H28 a{
+	text-decoration: none;
+	font-size: 12px;
+	color: #FFF;
+	float: right;
+	font-family:"微软雅黑";
+}
+.Login_box .En .L .H28 a:hover{
+	color: #900;
+}
+
+.Login_box .En .L .Inp span,input{
+	float: left;
+}
+.Login_box .En .L .Inp span.span1{
+	letter-spacing:8px;
+	width: 62px;
+	text-align: left;
+	display: block;
+	height: 27px;
+	color: #FFF;
+	font-family:"微软雅黑";
+	line-height: 27px;
+}
+.Login_box .En .L .Inp span.span2{
+	margin-left: 10px;
+	font-size: 12px;
+	height: 27px;
+	line-height: 27px;
+	color:#f7c133;
+}
+
+.Login_box .En .L .Inp input{
+	outline: 0;
+	border: 1px solid #c7c3b3;
+	width: 192px;
+	height: 27px;
+	line-height: 27px;
+	height: 25px;
+	background: #FFF;
+}
+.Login_box .En .L .Xz{
+	margin-top: 0;
+}
+.Login_box .En .L .Xz input{
+	width: 15px;
+	height: 15px;
+	float: left;
+	border: none;
+	background: none;
+	margin-right: 8px;
+	position: relative;
+	top: 7px;
+}
+
+.Login_box .En .L .Xz label{
+	position: relative;
+	top: 7px;
+	margin-right: 20px;
+	float: left;
+	color: #FFF;
+	font-family:"微软雅黑";
+	font-size: 14px;
+}
+
+.Login_box .En .L .Yzm{
+	margin-top: 26px;
+}
+.Login_box .En .L .Yzm span.span1{
+		letter-spacing:2px;
+}
+.Login_box .En .L .Yzm input{
+	width: 85px;
+}
+.Login_box .En .L .Yzm img{
+	width: 67px;
+	height: 26px;
+	display: block;
+	float: left;
+	margin-left: 11px;
+	cursor: pointer;
+}
+
+.Login_box .En .L .Yzm a{
+	width: 48px;
+	display: block;
+	float: left;
+	text-decoration: none;
+	color: #FFF;
+	font-family:"微软雅黑";
+	font-size: 12px;
+	margin-left: 15px;
+	margin-top: 2px;
+}
+.Login_box .En .L .Yzm a:hover{
+	color: #900;
+}
+
+.Login_box .En .L .Enter{
+	width: 194px;
+	height: 46px;
+	font-family:"微软雅黑";
+	font-size: 24px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 46px;
+	display: block;
+	color: #FFF;
+	letter-spacing:8px;
+	border-radius: 10px;
+	margin-top: 36px;
+	margin-left: 62px;
+	background: #e5a745;
+}
+.Login_box .En .L .Enter:hover{
+	background: #d2973a;
+}
+
+.Login_box .En .L p.p1{
+	margin-top: 50px;
+	font-family:"微软雅黑";
+	font-size: 14px;
+	color: #FFF;
+} 
+
+.Login_box .En .L .Qt{
+	padding-top: 26px;
+	padding-left: 62px;
+}
+.Login_box .En .L .Qt a{
+	height: 21px;
+	display: block;
+	margin-right: 20px;
+	float: left;
+	text-decoration: none;
+}
+.Login_box .En .L .Qt a img{
+	display: block;
+}
+
+
+
+
+
+
+
+
+.Login_box .En .R{
+	width: 250px;
+	padding-top: 57px;
+	float: right;
+	height: 428px;
+}
+
+.Login_box .En .R .App_xz{
+	width: 230px;
+	padding-left: 3px;
+	overflow: hidden;
+}
+.Login_box .En .R .App_xz img{
+	display: block;
+	float: left;
+	width: 30px;
+	margin-right: 15px;
+	height: 57px;
+}
+
+.Login_box .En .R .App_xz p,a{
+	font-family:"微软雅黑";
+	font-size: 14px;
+	color: #FFF;
+	line-height: 26px;
+}
+
+
+.Login_box .En .R .App_xz a:hover{
+	color: #900;
+}
+
+
+
+.Login_box .En .R .Rwm{
+	padding-top: 15px;
+	width: 247px;
+	overflow: hidden;
+}
+.Login_box .En .R .Rwm .AI{
+	width: 108px;
+	height:140px;
+	float: left;
+}
+.Login_box .En .R .Rwm .AI img{
+	width: 108px;
+	height: 106px;
+	display: block;
+}
+.Login_box .En .R .Rwm .AI span{
+	width: 108px;
+	display: block;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+	color: #FFF;
+	font-family:"微软雅黑";
+	font-size: 14px;
+}
+
+.Login_box .En .R .Rwm .IOS{
+	float: right;
+}
+
+
+.Login_box .En .R .Jiam{
+	width: 248px;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.Login_box .En .R .Jiam img{
+	height: 134px;
+	width: 248px;
+	display: block;
+}
+.Login_box .En .R .Jiam a{
+	height: 40px;
+	line-height: 40px;
+	float: right;
+	color: #FFF;
+	font-family:"微软雅黑";
+	font-size: 14px;
+}
+
+.Login_box .En .R .Jiam a:hover{
+	color: #900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

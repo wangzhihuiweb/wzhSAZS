@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(../../../PublicIMG/dotbg.jpg);
+}
+.Template{
+	width: 100%;
+	min-width: 1200px;
+	min-height:1000px;
+	padding-bottom: 50px;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1200?"1200px":"");
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)<1000?"1000px":"");
+	background: url(../../../PublicIMG/Index_bg.jpg) repeat top center;
+}
+.Template1{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.Template1 .Template1_Left{
+	float: left;
+	width: 910px;
+}
+.Template1 .Template1_Left .H_seek{
+	width: 910px;
+	height: 233px;
+}
+
+
+
+
+
+.Template1 .Template1_Right{
+	width: 266px;
+	float: right;
+}
+.Template1 .Template1_Right .ETP{
+	width: 266px;
+	height: 721px;
+	margin-top: 114px;
+	position: relative;
+}

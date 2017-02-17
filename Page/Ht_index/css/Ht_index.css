@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(../../../PublicIMG/dotbg.jpg);
+}
+.Ht_index{
+	width: 100%;
+	min-width: 1200px;
+	min-height:1000px;
+	padding-bottom: 50px;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1200?"1200px":"");
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)<1000?"1000px":"");
+	background: url(../../../PublicIMG/Index_bg.jpg) repeat top center;
+}
+.Ht_index1{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.Ht_index1 .Tt{
+	overflow: hidden;
+	width: 1200px;
+}
+
+.Ht_index1 .Tt .Tenet{
+	height: 240px;
+	padding-left: 11px;
+	float: left;
+}
+.Ht_index1 .Tt .Tenet img{
+	display: block;
+	margin: 22px 0;
+}
+
+.Ht_index1 .Tt .Tenet p{
+	color: #FFF;
+	font-size: 14px;
+	line-height: 24px;
+	font-family:"微软雅黑";
+}
+
+.Ht_index1 .Tt .Img{
+	float: right;
+	margin-top: 35px;
+	width: 730px;
+	height: 131px;
+}
+.Ht_index1 .Tt .Img img{
+	display: block;
+}
+.Ht_index1 .Tt .img2{
+	display: block;
+}
+
+
+.Ht_index1 .Ht_box{
+	margin-top: 50px;
+	width: 1200px;
+	overflow: hidden;
+}
+
+.Ht_index1 .Ht_box .Ht_L,.Ht_R{
+	width: 583px;
+	height: 583px;
+	float: left;
+	background: url(../images/box_bg.png) no-repeat;
+}
+
+.Ht_index1 .Ht_box .Ht_L a{
+	width: 246px;
+	height: 88px;
+	display: block;
+	line-height: 88px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 22px;
+	color: #FFF;
+	float: left;
+	margin-left: 25px;
+	margin-top: 115px;
+	font-family:"方正大黑简体";
+	background: url(../images/a_bg.png) no-repeat;
+}
+.Ht_index1 .Ht_box .Ht_L a:hover{
+	background: url(../images/a_bg1.png) no-repeat;
+}
+
+.Ht_index1 .Ht_box .Ht_R{
+	float: right;
+}
+.Ht_index1 .Ht_box .Ht_R .Ht_R_a{
+	overflow: hidden;
+}
+.Ht_index1 .Ht_box .Ht_R .Ht_R_a a{
+	padding-left: 15px;
+	width: 230px;
+	height: 89px;
+	display: block;
+	line-height: 88px;
+	text-decoration: none;
+	font-size: 16px;
+	color: #FFF;
+	float: left;
+	margin-left: 36px;
+	margin-top: 25px;
+	font-family:"方正大黑简体";
+	background: url(../images/a1_bg.png) no-repeat;
+}
+.Ht_index1 .Ht_box .Ht_R .Ht_R_a a.pl{
+	padding-left: 50px;
+	width: 195px;
+}
+
+.Ht_index1 .Ht_box .Ht_R .Ht_R_a a:hover{
+	background: url(../images/a1_bg1.png) no-repeat;
+}
+
+.Ht_index1 .Ht_box h3{
+	width: 216px;
+	margin-top: 23px;
+	margin-left: 16px;
+	height: 52px;
+	font-size: 24px;
+	line-height: 52px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	font-family:"微软雅黑";
+	clear: both;
+	text-align: center;
+	background: url(../images/h3_bg.png) no-repeat;
+	color: #FFF;
+}
+
+.Ht_index1 .Ht_box .news{
+	padding-left: 27px;
+	width: 518px;
+	overflow: hidden;
+	height: 104px;
+	margin: 29px 0 0 20px;
+	border-radius: 10px;
+	background: #0f8315;
+}
+
+.Ht_index1 .Ht_box .news a{
+	display: block;
+	width: 430px;
+	margin-top: 13px;
+	color: #FFF;
+	letter-spacing: 1px;
+	font-family:"微软雅黑";
+	font-size: 14px;
+	line-height: 29px;
+	text-decoration: none;
+	height: 29px;
+	clear: both;
+	border-bottom: 1px solid #FFF;
+}
+.Ht_index1 .Ht_box .news a:hover{
+	color: #900;
+}

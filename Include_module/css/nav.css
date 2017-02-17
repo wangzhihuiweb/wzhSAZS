@@ -1,0 +1,191 @@
+@charset "utf-8";
+/* CSS Document */
+.Nav{
+	width: 910px;
+	height: 196px;
+	padding-top: 37px;
+}
+.Nav .Nav_seek{
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity: 0;
+	z-index: 2;
+	position: relative;
+	width: 910px;
+	height: 57px;
+}
+.Nav .Nav_seek .Nav_seekL,.Nav_seekC,.Nav_seekR{
+	float: left;
+}
+
+.Nav .Nav_seek .Nav_seekL{
+	width: 114px;
+	height: 51px;
+	margin-top: 3px;
+}
+.Nav .Nav_seek .Nav_seekL a{
+	width: 114px;
+	height: 51px;
+	display: block;
+}
+.Nav .Nav_seek .Nav_seekL a img{
+	display: block;
+}
+
+
+.Nav .Nav_seek .Nav_seekC{
+	width: 637px;
+	margin-left: 10px;
+	height: 57px;
+	overflow: hidden;
+	position: relative;
+	background: url(../images/sou_bg.png) no-repeat;
+}
+
+.Nav .Nav_seek .Nav_seekC input{
+	width: 614px;
+	height: 39px;
+	line-height: 39px;
+	border: none;
+	padding-left: 6px;
+	font-size: 14px;
+	font-family: "微软雅黑";
+	color:#aaaaaa;
+	background: #FFF;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	outline: 0;
+	margin-left: -310px;
+	margin-top: -20px;	
+}
+
+.Nav .Nav_seek .Nav_seekC span.LighT{
+	width: 86px;
+	height: 8px;
+	background: url(../images/light.png) no-repeat;
+	position: absolute;
+	top: 0;
+	left: -40px;
+}
+.Nav .Nav_seek .Nav_seekC span.LighR{
+	width: 86px;
+	height: 8px;
+	background: url(../images/light.png) no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: -40px;
+}
+
+
+
+.Nav .Nav_seek .Nav_seekR{
+	width: 144px;
+	float: right;
+	height: 51px;
+	margin-top: 3px;
+}
+.Nav .Nav_seek .Nav_seekR a{
+	width: 114px;
+	height: 51px;
+	display: block;
+}
+.Nav .Nav_seek .Nav_seekR a img{
+	display: block;
+}
+
+
+
+
+.Nav .Nav_nav{
+	overflow: hidden;
+	height: 50px;
+	margin-top: 40px;
+	filter:alpha(opacity=0);
+	-moz-opacity:0;
+	-khtml-opacity:0;
+	opacity: 0;
+	position: relative;
+	width: 910px;
+}
+.Nav .Nav_nav .nav1{
+	width: 910px;
+	height: 42px;
+	top: 50%;
+	margin-top: -21px;
+	position: absolute;
+	background: url(../images/nav_bg.png) no-repeat;
+}
+.Nav .Nav_nav .nav1 a{
+	color: #FFF;
+	font-size: 14px;
+	display: inline-block;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	text-decoration: none;
+	text-align: center;
+	margin: 1px 1px 0 1px;
+	padding: 0 13px;
+	font-family: "微软雅黑";
+}
+.Nav .Nav_nav .nav1 a:hover{
+	background: url(../images/nav_bg1.png) repeat-x;
+}
+.Nav .Nav_nav .nav1 a.light{
+	background: url(../images/nav_bg1.png) repeat-x;
+}
+
+.Nav .Nav_nav .nav1 a.MR0{
+	margin-right: 0;
+}
+
+
+.Nav .Nav_nav .nav1{
+	width: 910px;
+	height: 42px;
+	top: 50%;
+	margin-top: -21px;
+	position: absolute;
+	background: url(../images/nav_bg.png) no-repeat;
+}
+
+
+
+
+
+.Nav .Nav_nav span.LighT2{
+	width: 67px;
+	height: 7px;
+	background: url(../images/light2.png) no-repeat;
+	position: absolute;
+	top: 1px;
+	left: -32px;
+}
+.Nav .Nav_nav span.LighR2{
+	width: 67px;
+	height: 7px;
+	background: url(../images/light2.png) no-repeat;
+	position: absolute;
+	bottom: 0;
+	right: -32px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

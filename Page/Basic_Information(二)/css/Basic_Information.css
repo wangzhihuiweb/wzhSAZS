@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background: url(../../../PublicIMG/dotbg.jpg);
+}
+.Template{
+	width: 100%;
+	min-width: 1200px;
+	min-height:1000px;
+	padding-bottom: 50px;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<1200?"1200px":"");
+	_height:expression((document.documentElement.clientHeight||document.body.clientHeight)<1000?"1000px":"");
+	background: url(../../../PublicIMG/Index_bg.png) repeat top center;
+}
+.Template1{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.Template1 .Template1_Left{
+	float: left;
+	width: 910px;
+}
+.Template1 .Template1_Left .H_seek{
+	width: 910px;
+	height: 233px;
+}
+
+.Template1 .Template1_Left .E_product{
+	width: 910px;
+	overflow: hidden;
+}
+
+.Template1 .Template1_Left .E_product .tit{
+	height: 42px;
+	line-height: 42px;
+	width: 910px;
+}
+.Template1 .Template1_Left .E_product .Img{
+	float: left;
+	height: 41px;
+	position: relative;
+	width: 58px;
+}
+.Template1 .Template1_Left .E_product p{
+	float: left;
+	font-size: 18px;
+	font-family:"微软雅黑";
+	font-weight: bold;
+	margin-left: 7px;
+	color: #FFF;
+	line-height: 42px;
+}
+
+
+.Template1 .Template1_Left .Cot{
+	width: 910px;
+	overflow: hidden;
+	padding-top: 6px;
+}
+.Template1 .Template1_Left .Cot_T,.Cot_C,.Cot_B{
+	width: 910px;
+	clear: both;
+}
+.Template1 .Template1_Left .Cot_T{
+	height: 15px;
+	background: url(../images/cot_bg.png) no-repeat 20px top;
+}
+.Template1 .Template1_Left .Cot_B{
+	height: 12px;
+	background: url(../images/cot_bg1.png) no-repeat 20px top;
+}
+
+
+.Template1 .Template1_Left .Cot_C{
+	background: url(../images/cot_bg2.png) repeat-y 20px top;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1{
+	width: 910px;
+	overflow: hidden;
+	padding-top: 25px;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Topic{
+	height:47px;
+	width: 910px;
+	background: url(../images/tit_bg.png) no-repeat 2px top;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Topic .Num{
+	width: 47px;
+	height: 47px;
+	text-align: center;
+	line-height: 47px;
+	font-size: 24px;
+	color: #21a52d;
+	font-family:"微软雅黑";
+	float: left;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Topic .Date{
+	float: left;
+	height:47px;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Topic .Date p{
+	height: 47px;
+	padding-left: 16px;
+	line-height: 47px;
+	font-family:"微软雅黑";
+	color: #e9e9e9;
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Details{
+	width:846px;
+	overflow: hidden;
+	padding-top: 20px;
+	padding-left: 64px;
+}
+
+
+/*表单*/
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Details .Table{
+	padding: 3px;
+	width: 612px;
+	margin: 30px 0;
+	background: #8cd08f;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Details .Table table td{
+	height: 28px;
+	border-right: 1px solid #88bd8a;
+	border-bottom: 1px solid #88bd8a;
+	color:#466b47;
+	background: #c0e5c2;
+	min-width: 85px;
+	font-size: 14px;
+	font-family:"微软雅黑";
+	text-align: center;
+	line-height: 28px;
+
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Details .Table table td.tdR0{
+	border-right: none;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Details .Table table .tr3 td{
+	border-bottom: none;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow{
+	width: 726px;
+	padding: 0;
+	margin: 45px 0 40px 115px;
+	overflow: hidden;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L{
+	width: 226px;
+	height: 320px;
+	float: left;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Big{
+	width: 226px;
+	height: 255px;
+	overflow: hidden;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Big ul{
+	width: 678px;
+	margin: 0 auto;
+	height: 255px;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Big ul li{
+	width: 226px;
+	height: 255px;
+	float: left;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Big ul li img{
+	display: block;
+	width: 222px;
+	height: 251px;
+	border: 2px solid #9bd797; 
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Small{
+	width: 226px;
+	height: 52px;
+	margin-top: 14px;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Small ul li{
+	width: 60px;
+	float: left;
+	margin-right: 16px;
+	height: 44px;
+	border: 2px solid #cdcdcd;
+	cursor: pointer;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Small ul li.light{
+	border: 2px solid #666;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Small ul li img{
+	width: 60px;
+	height: 44px;
+	display: block;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_L .Small ul li.Mr0{
+	margin-right: 0;
+}
+
+
+
+
+
+
+
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_R{
+	float: left;
+	margin-left: 60px;
+}
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_R h3{
+	height: 32px;
+	line-height: 32px;
+	width: 436px;
+	border-bottom: 1px solid #FFF;
+	font-size: 21px;
+	color:#feffff;
+	font-family:"微软雅黑";
+	font-weight: bold;
+}
+
+
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_R p{
+	height: 42px;
+	line-height: 42px;
+	color:#e1e1e1;
+	font-weight: bold;
+	font-family:"微软雅黑";
+	font-size: 18px;
+}
+.Template1 .Template1_Left .Cot_C .Cot_C_1  .PicShow .Pic_R p span{
+	color:#feffff;
+}
+
+/*产品配料信息*/
+.Template1 .Template1_Left .Cot_C .Cot_C_1 .Details .p1{
+	color: #FFF;
+	font-family:"微软雅黑";
+	font-size: 18px;
+	line-height: 60px;
+}
+
+
+
+
+.Template1 .Template1_Right{
+	width: 266px;
+	float: right;
+}
+.Template1 .Template1_Right .ETP{
+	width: 266px;
+	height: 721px;
+	margin-top: 114px;
+}

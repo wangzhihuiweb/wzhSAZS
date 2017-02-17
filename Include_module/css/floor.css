@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+.Floor{
+	height: 119px;
+	width: 100%;
+	min-width: 650px;
+	background:#151e24;
+	_width:expression((document.documentElement.clientWidth||document.body.clientWidth)<650?"650px":"");
+}
+.Floor1{
+	width: 650px;
+	margin: 0 auto;
+	height: 90px;
+	padding-top: 29px;
+}
+.Floor1 p{
+	color: #FFF;
+	font-size: 14px;
+	height: 35px;
+	line-height: 35px;
+	font-family:"宋体";
+}
+.Floor1 p.p1 a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 0 60px;
+}
+.Floor1 p.p1 a:hover{
+	color: #900;
+}
+.Floor1 p.p1 span{
+	margin-right: 20px;
+}
+.Floor1 p.p2{
+	text-align: center;
+}
+.Floor1 p.p2 span{
+	padding: 0 12px;
+}

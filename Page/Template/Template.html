@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>后台模板页</title>
+<link href="../../PublicCSS/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/Template.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div class="HEADER"><iframe src="../../Include_module/head.html" width="100%" style="min-width: 1200px;" height="29" scrolling="0" frameborder="0"></iframe></div>
+<div class="Template">
+	<div class="NAAA">
+    	<div class="NAV"><iframe src="../../Include_module/nav.html" width="910" height="233" scrolling="0" frameborder="0"></iframe></div>
+    </div>
+	
+	<div class="Template1"> 	
+    	<div class="Template1_Left">
+        	<div class="H_seek"></div>
+        </div>
+        <div class="Template1_Right">
+        	<div class="ETP"><iframe src="../../Include_module/Related.html" width="266" height="721" scrolling="0" frameborder="0"></iframe></div>
+        </div>
+    </div>
+</div>
+<iframe src="../../Include_module/floor.html" width="100%" style="min-width: 1200px;" height="119" scrolling="0" frameborder="0"></iframe>
+</body>
+<script src="../../PublicJS/jquery-1.8.3.min.js"></script>
+<script type="text/javascript">
+	 $( window ).scroll( function(){
+		var headHeight = $( ".HEADER" ).height()+29,
+			st = $( document ).scrollTop();
+			
+		if( st >= headHeight ){
+			$( ".NAAA" ).css({ "position": "fixed", "top": "-39px","left":"50%","margin-left":"-50%","z-index":"99999","background":"url(../../PublicIMG/Index_bg.jpg) top center"});
+			$( ".Template1" ).css({"padding-top":"282px"});
+		}else{
+			$( ".NAAA" ).css({ "top": "29px","background":"none"});
+
+		}
+	});
+</script>
+</html>
